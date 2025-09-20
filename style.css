@@ -1,0 +1,899 @@
+@font-face {
+    font-family: "ppwodland";
+    src: url(./PP\ Woodland.zip);
+}
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            font-family: ppwoodland;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+/* ----------------------nav--------------------- */
+nav {
+    width: 100%;
+    height: 12vh;
+    padding: 0 55px;
+    position: fixed;
+    z-index: 99;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.nav-part1 {
+    width: 40px;
+    height: 10px;
+}
+
+.nav-part1 .line {
+    width: 100%;
+    height: 2px;
+    margin-bottom: 4px;
+    background-color: #434B34;
+}
+
+.nav-part2 button {
+    padding: 6px 16px;
+    border-radius: 50px;
+    margin-right: 5px;
+    font-size: 16px;
+    background-color: transparent;
+    cursor: pointer;
+    color: #434B34;
+    border: 1px solid #434b34d2;
+}
+
+.nav-part2 button:nth-last-child(1) {
+    background-color: #434b34de;
+    color: white;
+}
+/* ------------------------p1-------------------------- */
+.page1 {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.page1 svg {
+    scale: 0.24;
+    position: absolute;
+    top: -14%;
+    z-index: 9;
+    fill: #434B34;
+}
+
+#page1 #svg #boxnew{
+        height: 100px;
+        width: 100px;
+        background-color: red;
+        z-index: 99%;
+}
+
+
+.page1>img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center;
+}
+
+
+/* -------------------------p2---------------------------- */
+.page2 {
+    min-height: 150vh;
+    width: 100%;
+    position: relative;
+    background-color: #5B6647;
+}
+
+.page2 #svg1 {
+    width: 100%;
+    position: absolute;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.page2 .text-content {
+    position: relative;
+    padding-top: 12vw;
+    z-index: 99;
+}
+
+.page2 .text-content>h2 {
+    text-align: center;
+    font-size: 5.3vw;
+    line-height: 5.2vw;
+    color: #434B34;
+}
+
+.page2 .text-content>h2 span {
+    font-family: land;
+    font-weight: 100;
+}
+
+.page2 #svg2 {
+    position: absolute;
+    bottom: -10%;
+    width: 280vw;
+    fill: #5B6647;
+    z-index: 9;
+}
+
+.page2 #svg3 {
+    position: absolute;
+    bottom: -10%;
+    width: 270vw;
+    fill: #E3E3C4;
+    left: -35%;
+}
+
+/* ---------------------p3---------------------------- */
+.page3 {
+    width: 100%;
+    min-height: 150vh;
+    background-color: #F7F7EE;
+}
+
+.page3 .text-content2 {
+    width: 100%;
+    height: 50vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.page3 .text-content2 h2 {
+    color: #E3E3C4;
+    font-size: 80px;
+    font-family: PPWoodland;
+    font-weight: 500;
+    line-height: 11vh;
+    top: -14%;
+    position: relative;
+}
+
+.page3 .img-feature {
+    width: 85%;
+    height: calc(150vh - 50vh);
+    padding-top: 2vw;
+    margin-left: 7.5vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.page3 .img-feature .img-feature-left {
+    width: 46%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.page3 .img-feature .img-feature-left .text-section {
+    width: 100%;
+    height: 30vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 2.5vw;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+}
+
+.page3 .text-section p {
+    width: 53%;
+    font-family: gilroy;
+    font-weight: 400;
+    /* line-height: 1.2vw; */
+    font-size: 17px;
+    color: #434B34;
+    letter-spacing: -1px;
+}
+
+.page3 .text-section h3 {
+    font-family: PPWoodland;
+    font-weight: 300;
+    color: #434B34;
+    font-size: 1.4vw;
+
+}
+
+.page3 .text-section h3 span i {
+    padding: 0.2vw 1vw;
+    background-color: #434B34;
+    border-radius: 15px;
+    color: #E3E3C4;
+}
+
+.page3 .left-img {
+    width: 100%;
+    height: 50%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.page3 .left-img>img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+}
+
+.page3 .img-feature-right {
+    width: 53%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 1.2vw;
+}
+
+.page3 .top-right-img {
+    width: 95%;
+    height: 60%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.page3 .top-right-img>img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+}
+
+.page3 .img-feature-right .bottom-right-img {
+    width: 43%;
+    height: 38%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.page3 .img-feature-right .bottom-right-img>img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+}
+
+/* -----------------------.page4--------------------- */
+.page4 {
+    width: 100%;
+    min-height: 110vh;
+    padding-top: 5vw;
+    background-color: #F7F7EE;
+}
+
+.page4 .cards {
+    width: 90%;
+    height: 24vh;
+    margin-left: 5vw;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border: 0.2px solid #434b3480;
+    /* background-color: red; */
+}
+
+.page4 .cards:nth-child(1) {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    overflow: hidden;
+}
+
+.page4 .cards:nth-last-child(1) {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+}
+
+.page4 .cards .cards-left-img {
+    width: 0%;
+    height: 100%;
+    /* display: none; */
+    -webkit-transition: ease-out 0.2s;
+    -o-transition: ease-out 0.2s;
+    transition: ease-out 0.2s;
+    background-color: aqua;
+}
+
+.page4 .cards .cards-left-img>img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+}
+
+.page4 .cards .information-feature {
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    /* background-color: red; */
+}
+
+.page4 .cards .information-feature .cards-text-feature {
+    width: 25%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 1.5vw;
+    padding-left: 3vw;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    /* background-color: coral; */
+}
+
+.page4 .cards .information-feature .cards-text-feature h2 {
+    font-family: "pp woodland";
+    color: #434B34;
+    font-size: 2vw;
+}
+
+.page4 .cards .information-feature .cards-text-feature p {
+    font-family: "gilroy";
+    font-size: 0.8vw;
+    color: #434B34;
+    /* background-color: aqua; */
+}
+
+.page4 .cards .information-feature .cards-number {
+    margin-right: 3vw;
+    margin-top: 4vw;
+    background-color: #434B34;
+    color: white;
+    padding: 0.2vw 1.3vw;
+    font-family: "gilroy";
+    font-weight: 800;
+    border-radius: 20px;
+    border: none;
+    font-size: 0.8vw;
+}
+.page4 .cards .information-feature .cards-number i{
+    display: none;
+    color: #434B34;
+}
+.page4 .cards:hover .cards-left-img {
+    /* display: block; */
+    width: 35%;
+
+}
+.page4 .cards:hover {
+    background-color: #434B34;
+}
+.page4 .cards:hover .information-feature .cards-text-feature h2{
+    color: #E3E3C4;
+}
+.page4 .cards:hover .information-feature .cards-text-feature p{
+    color: #ffffff;
+}
+.page4 .cards:hover .cards-number{
+    background-color: white;
+}
+.page4 .cards:hover .information-feature .cards-text-feature{
+    width: 34%;
+}
+.page4 .cards:hover .information-feature .cards-number h4{
+   display: none;
+}
+.page4 .cards:hover .information-feature .cards-number i{
+    display: initial;
+}
+/* ----------------------p5---------------------------- */
+.page5{
+    width: 100%;
+    height: 100vh;
+    background-color: #F7F7EE;
+    position: relative;
+    margin-bottom: 10vh;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -webkit-transform: scale(0.5) translateX(-65%) translateY(30%);
+        -ms-transform: scale(0.5) translateX(-65%) translateY(30%);
+            transform: scale(0.5) translateX(-65%) translateY(30%);
+    border-radius: 20px;
+}
+.swiper-slide-active img{
+    -webkit-transform: scale(0.85) translateX(0%) translateY(0%);
+        -ms-transform: scale(0.85) translateX(0%) translateY(0%);
+            transform: scale(0.85) translateX(0%) translateY(0%);
+  
+  }
+
+.swiper-slide {
+    width: 80%;
+}
+
+.swiper-button-next {
+    color: #fff;
+    background-color: #434b34;
+    padding: 5px 20px;
+    height: 20px;
+    border-radius: 50px;
+    position: absolute;
+    top: 10.3%;
+    right: 5%; 
+    z-index: 9;
+}
+.swiper-button-prev{
+    color: #fff;
+    background-color: #434b34;
+    padding: 5px 20px;
+    height: 20px;
+    border-radius: 50px;
+    position: absolute;
+    top: 10.3%;
+    left: 86%;
+    z-index: 9;
+}
+.swiper-pagination{
+    width: 38px;
+    height: 20px;
+    position: absolute;
+    top: 7.5%;
+    left: 89.2%;
+    font-family: "gilroy";
+}
+.swiper-button-next::after {
+    content: "";
+}
+
+.swiper-button-prev::after {
+    content: "";
+}
+
+/* -------------------p6-------------------------- */
+.page6{
+    height: 150vh;
+    width: 100%;
+    position: relative;
+    background-color: #03364F;
+    /* margin-top: 10vh; */
+
+}
+.page6 #svg4 {
+    position: absolute;
+    bottom: 92%;
+    width: 250vw;
+    fill: #E3E3C4;
+    /* z-index: 9; */
+    rotate: 180deg;
+    
+}
+.page6 #svg3{
+    position: absolute;
+    bottom: 92%;
+    width: 300vw;
+    fill: #03364F;
+    left: -35%;
+    z-index: 9;
+    rotate: 180deg;
+
+}
+.page6 .text-content2 {
+    width: 100%;
+    height: 50vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: end;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.page6 .text-content2 h2 {
+    color: #E3E3C4;
+    font-size: 80px;
+    font-family: PPWoodland;
+    font-weight: 200;
+    line-height: 11vh;
+    top: -14%;
+    position: relative;
+}
+.page6 .text-content2 p {
+    color: #E3E3C4;
+    font-size: 15px;
+    font-family: PP Woodland;
+    font-weight: 500;
+    line-height: 3vh;
+    top: -1vh;
+    position: relative;
+    width: 35%;
+    text-align: center;
+
+}
+.page6 #left-img{
+    height: 220px;
+    width: 320px;
+    border-radius: 20px;
+    object-fit: cover;
+    object-position: center;
+    position: relative;
+    left: 5%;
+    top: 5%;
+}
+.page6 #right-img{
+    height: 220px;
+    width: 320px;
+    border-radius: 20px;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    left: 60%;
+    top: 27%;
+}
+.page6 #center-img{
+    height: 220px;
+    width: 320px;
+    border-radius: 20px;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    right: 25%;
+    top: 35%;
+}
+.page6 .box1 h2{
+    font-size: 38px;
+    position: absolute;
+    top: 60%;
+    left: 6%;
+    color: #E3E3C4;
+    font-family: PP Woodland;
+}
+.page6 .box1 p{
+    font-size: 17px;
+    width: 20%;
+    text-align: start;
+    position: absolute;
+    top: 67%;
+    left: 6%;
+    color: #E3E3C4;
+    font-family: gilroy;
+    font-weight: 400;
+}
+.page6 .box2 h2{
+    font-size: 38px;
+    position: absolute;
+    top: 64%;
+    left: 49%;
+    color: #E3E3C4;
+    font-family: PP Woodland;
+}
+.page6 .box2 p{
+    font-size: 17px;
+    width: 20%;
+    text-align: start;
+    position: absolute;
+    top: 70%;
+    left: 49%;
+    color: #E3E3C4;
+    font-family: ppWoodland;
+}
+.page6 .box3 h2{
+    font-size: 30px;
+    position: absolute;
+    top: 55%;
+    left: 73%;
+    color: #E3E3C4;
+    font-family: ppWoodland;
+}
+.page6 .box3 p{
+    font-size: 17px;
+    width: 20%;
+    text-align: start;
+    position: absolute;
+    top: 60%;
+    left: 73.5%;
+    color: #E3E3C4;
+    font-family: ppWoodland;
+    font-weight: 400;
+}
+.page6 .text-section h3 {
+    font-family: ppWoodland;
+    font-weight: 300;
+    color: #434B34;
+    font-size: 1.4vw;
+    position: absolute;
+}
+
+.page6 .text-section h3 span i {
+    padding: 0.2vw 1vw;
+    background-color: #434B34;
+    border-radius: 15px;
+    color: #E3E3C4;
+}
+.page6 #svg5 {
+    position: absolute;
+    bottom: -10%;
+    width: 280vw;
+    fill: #03364F;
+    z-index: 9;
+}
+
+.page6 #svg6 {
+    position: absolute;
+    bottom: -10%;
+    width: 270vw;
+    fill: #E3E3C4;
+    left: -35%;
+}
+.page7{
+    height: 120vh;
+    width: 100%;
+}
+.page7 #text-content {
+    position: relative;
+    padding-top: 12vw;
+    z-index: 99;
+}
+
+.page7 #text-content>h2 {
+    text-align: center;
+    font-size: 5.1vw;
+    line-height: 5.2vw;
+    color: #434B34;
+}
+
+.page7 #text-content>h2 span {
+    font-family: ppWoodland;
+    font-weight: 500;
+}
+#page8{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    padding: 5vw 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#page8-left{
+    height: 100%;
+    border-radius: 20px;
+    width: 40%;
+    background-image: url(https://hotelodisej.com/wp-content/uploads/bf-advanced-images/230/ALH_Odisej_outsidepool_01-scaled-600x0.jpg);
+    background-size: cover;
+    background-position: center;
+    transform: translateX(-10%);
+
+}
+#page8-center{
+    height: 100%;
+    border-radius: 20px;
+    width: 50%;
+    text-align: center;
+    padding: 5vw 8vw;
+}
+#page8-center h1{
+    font-family: pp woodland;
+    font-size: 5vw;
+    line-height: 5vw;
+    color: #5b6647;
+    font-weight: 100;
+    margin-bottom: 4vw;
+}
+#page8-center p{
+    font-size: 1.3vw;
+    color: #676767;
+    font-weight: 500;
+    margin-bottom: 4vw;
+}
+
+#page8-right{
+    height: 100%;
+    border-radius: 20px;
+    width: 40%;
+    background-image: url(https://hotelodisej.com/wp-content/uploads/bf-advanced-images/388/alh-img-2-600x0.jpeg);
+    background-size: cover;
+    background-position: center;
+    transform: translateX(10%);
+}
+.page9 img{
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.page10{
+    height: 180vh;
+    width: 100%;
+    background-color: #5B6647;
+    font-family: ppwoodland;
+}
+.page10 #svg7{
+    width: 260vw;
+    /* fill: #E3E3C4; */
+    z-index: 99;
+    position: relative;
+    rotate: 180deg;
+    top: -8%;
+    fill: #5B6647;
+}
+.page10 #svg8{
+    width: 200vw;
+    rotate: 180deg;
+    position: relative;
+    top: -20%;
+    fill: #E3E3C4;
+}
+.page10 #text-content3 h2{
+    font-size: 11vh;
+    text-align: center;
+    position: relative;
+    top: -17vh;
+    color: #434B34;
+    font-weight: 500;
+    align-items: center;
+    
+}
+.page10 #text-content3 p{
+    font-size: 18px;
+    width: 32%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -10vh;
+    color: #E3E3C4;
+}
+#img-container{
+    position: relative;
+    height: 100vh;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: #03364F; */
+}
+#img-container #box1 {
+    height: 380px;
+    width: 350px;
+    background-color: red;
+    position: relative;
+    top: 40%;
+    left: 5%;
+    border-radius: 20px;
+}
+#box1 #left-img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+    object-position: center;
+}
+#img-container #box2{
+    height: 90%;
+    width: 500px;
+    background-color: green;
+    position: relative;
+    left: 33%;
+    border-radius: 20px;
+    bottom: 50%;
+}
+#box2 #center-img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+    object-position: center;
+}
+#img-container #box3{
+    height: 380px;
+    width: 350px;
+    background-color: lime;
+    position: relative;
+    left: 72%;
+    bottom: 140%;
+    border-radius: 20px;
+}
+#box3 #right-img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+    object-position: center;
+}
